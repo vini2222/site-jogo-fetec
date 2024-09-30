@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            
+        }
+        header {
+            background-color: rgb(255, 187, 0);
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            
+        }
+        nav {
+            display: flex;
+            gap: 35px;
+            
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            
+        }
+       #ab {
+            text-decoration: none;
+            background-color: rgb(255, 187, 0);
+            width: 70px;
+            text-align: center;
+            margin: auto;
+            height: 20px;
+            border-radius: 20px;
+        }
+        #ab:hover{
+            width: 90px;
+            height: 25px;
+            font-size: 15px;
+        }
+        nav a:hover {
+            background-color: rgb(255, 226, 173);
+            
+        }
+        .container {
+            display: flex;
+            flex-direction: column; 
+            gap: 75px; 
+            
+   
+        }
+        .vertical {
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            gap: 75px;
+            height: 400px;
+            
+        }
+        .horizontal {
+            border: 1px solid #ccc;
+            background-color: #f0f0f0;
+            flex: 1; 
+            text-align: center;
+            border-radius: 30px;
+            padding: 30px 30px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            
+            
+        }
+        #space{
+            height: 5vh;
+            width: 100vw;
+            background-color: #f4f4f4;
+            
+        }
+        .logo{
+        background-image: url(https://ellipsiseducation.com/wp-content/uploads/2023/04/Scratch-cat.png);
+        background-size: 100% 100%;
+        height: 150px;
+        width: 150px;
+        border-radius: 20px;
+    }
+
+    .horizontal img{
+        width: 250px;
+        margin: auto;
+    }
+    
+
+footer {
+            background: #333; color: #fff; padding: 20px; text-align: center;
+        }
+
+       footer a { color: #fff; margin: 0 10px; } 
+
+          </style>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Jogos</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="space">
+
+        </div>
+        <div class="vertical">
+            <div class="horizontal">Zumbis Famintos <br>
+                <img src="./zumbi.png" alt="erro">
+                <a id="ab" href="https://scratch.mit.edu/projects/1067544239">Jogar</a>
+            </div>
+            <div class="horizontal">water sort <br>
+                <img src="./Captura de tela 2024-09-30 171558.png" alt="erro">
+                <a id="ab" href="https://scratch.mit.edu/projects/1067484457?classId=c6af9f25-f24a-40c1-a965-c255e58e8c64&assignmentId=59d37ffc-6c7d-4c2e-8071-3ab15ed3e15e&submissionId=73a1e9b4-bd2e-72a2-4edb-7ebae0e633c9">Jogar</a>
+            </div>
+            <div class="horizontal">Sonic e Mario <br>
+                <img src="./s e m.png" alt="erro">
+                <a id="ab" href="https://scratch.mit.edu/projects/1070685533?classId=f2e3cace-8019-49b3-a1bb-cdb5a3668ae6&assignmentId=74b4b621-2c87-43ba-9a26-264a12e5decd&submissionId=fd37a35a-9650-897c-e969-cb2cbe45fb4e">Jogar</a>
+            </div>
+        </div>
+        <div class="vertical">
+            <div class="horizontal">Pivot: Logic Game remix <br>
+                <img src="./pivot logic game.png" alt="erro">
+                <a id="ab" href="https://scratch.mit.edu/projects/1066982033/?classId=f2e3cace-8019-49b3-a1bb-cdb5a3668ae6&assignmentId=74b4b621-2c87-43ba-9a26-264a12e5decd&submissionId=7c21ff92-7caf-0064-4732-9c53fe9d49cb">Jogar</a>
+            </div>
+            <div class="horizontal">Gênio quiz: BLUE EDITION <br>
+                <img src="./genio quiz.png" alt="erro">
+                <a id="ab" href="https://scratch.mit.edu/projects/1070681588?classId=f2e3cace-8019-49b3-a1bb-cdb5a3668ae6&assignmentId=74b4b621-2c87-43ba-9a26-264a12e5decd&submissionId=075bb095-dfa7-231b-ab3f-7031308f337f">Jogar</a>
+            </div>
+            <div class="horizontal">Pokemon Infinite Fusion remix <br>
+                <img src="./pokemon.png" alt="erro">
+                <a id="ab" href="https://scratch.mit.edu/projects/1070193438?classId=f2e3cace-8019-49b3-a1bb-cdb5a3668ae6&assignmentId=74b4b621-2c87-43ba-9a26-264a12e5decd&submissionId=dfcec785-cc65-e2ec-ea11-b8a36d2ad8c6">Jogar</a>
+            </div>
+        </div>
+        <div class="vertical">
+            <div class="horizontal">SUPER MINECRAFT JUMP <br>
+                <img src="./mine jump.png" alt="erro">
+                <a id="ab" href="https://scratch.mit.edu/projects/1071826286/?classId=f2e3cace-8019-49b3-a1bb-cdb5a3668ae6&assignmentId=74b4b621-2c87-43ba-9a26-264a12e5decd&submissionId=a099557f-5c3b-1bb9-ab27-7d3095580998">Jogar</a>
+            </div>
+            <div class="horizontal">Angry Birds Hallowen <br>
+                <img src="./angri hallow.png" alt="erro">
+                <a id="ab" href="https://scratch.mit.edu/projects/1064392867/?classId=f2e3cace-8019-49b3-a1bb-cdb5a3668ae6&assignmentId=74b4b621-2c87-43ba-9a26-264a12e5decd&submissionId=87cc0e57-91bd-629b-004c-13144373a142">Jogar</a>
+            </div>
+            <div class="horizontal">Minecraft 2D <br>
+                <img src="./mine 2d.png" alt="erro">
+                <a id="ab" href="https://scratch.mit.edu/projects/1066994031/?classId=f2e3cace-8019-49b3-a1bb-cdb5a3668ae6&assignmentId=74b4b621-2c87-43ba-9a26-264a12e5decd&submissionId=cda18f56-2a41-8362-bd28-4eb8295af482">Jogar</a>
+            </div>
+        </div>
+        <div class="vertical">
+            <div class="horizontal">Tetris NES version remiz <br>
+                <img src="./tetris nes.png" alt="erro">
+                <a id="ab" href="https://scratch.mit.edu/projects/1071804496?classId=f2e3cace-8019-49b3-a1bb-cdb5a3668ae6&assignmentId=74b4b621-2c87-43ba-9a26-264a12e5decd&submissionId=4bd05641-587f-12ff-cf8e-78b145858535">Jogar</a>
+            </div>
+            <div class="horizontal">GHETTO HEROES Rogue-Like <br>
+                <img src="./ghetto.png" alt="erro">
+                <a id="ab" href="https://scratch.mit.edu/projects/1070293458?classId=c6af9f25-f24a-40c1-a965-c255e58e8c64&assignmentId=59d37ffc-6c7d-4c2e-8071-3ab15ed3e15e&submissionId=7949966a-54e1-e118-ee6a-ca419f196fb8">Jogar</a>
+            </div>
+            <div class="horizontal">remix <br>
+                <img src="./remix.png" alt="erro">
+                <a id="ab" href="https://scratch.mit.edu/projects/1073390686?classId=c6af9f25-f24a-40c1-a965-c255e58e8c64&assignmentId=59d37ffc-6c7d-4c2e-8071-3ab15ed3e15e&submissionId=67aeaefa-ca7f-7bb3-21c4-c52982d772f1">Jogar</a>
+            </div>
+        </div>
+        <div class="vertical">
+            <div class="horizontal">Spongebob Flight <br>
+                <img src="./bob.png" alt="erro">
+                <a id="ab" href="https://scratch.mit.edu/projects/1073877425?classId=c6af9f25-f24a-40c1-a965-c255e58e8c64&assignmentId=59d37ffc-6c7d-4c2e-8071-3ab15ed3e15e&submissionId=64490f97-7050-1110-4426-14903eb9294f">Jogar</a>
+            </div>
+            <div class="horizontal">Sonic  <br>
+                <img src="./sonic.png" alt="erro">
+                <a id="ab" href="https://scratch.mit.edu/projects/1067830709?classId=c6af9f25-f24a-40c1-a965-c255e58e8c64&assignmentId=59d37ffc-6c7d-4c2e-8071-3ab15ed3e15e&submissionId=06078932-8dac-87c7-7305-a984c5e7568d">Jogar</a>
+            </div>
+            <div class="horizontal">Mortal Kombat 11 <br>
+                <img src="./nk 11.png" alt="erro">
+                <a id="ab" href="https://scratch.mit.edu/projects/1070549007?classId=c6af9f25-f24a-40c1-a965-c255e58e8c64&assignmentId=59d37ffc-6c7d-4c2e-8071-3ab15ed3e15e&submissionId=ae7bfa39-6557-3cff-5458-cd411df41227">Jogar</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h4>Desenvolvido por:</h4>
+        <h4>Vinicius</h4>
+        <h4>Vitória</h4>
+        <h4>Otavio</h4>
+        <ul style="list-style: none; padding: 0;">
+            <li><a href="#">home</a> | <a href="#">Jogos</a> | <a href="#">sobre</a> | <a href="#">contatos</a> | <a href="#">Comunidade</a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
